@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+
+            <!-- Morse Code Project -->
+            <div class="project">
+                <h3>Morse Code Converter</h3>
+                <p>
+                    Morse Code Converter is a Python project I developed. It allows you to convert text messages into Morse code and vice versa. It's a simple yet fun project that demonstrates my coding skills and creativity.
+                </p>
+                <p>
+                    The project takes user input and utilizes a dictionary to translate each character into its corresponding Morse code representation. It also provides a sound option to hear the Morse code audio.
+                </p>
+                <p>
+                    Technologies used: Python
+                </p>
+                <p>
+                    You can check out the project on <a href="https://github.com/ybkocaman/morse_code_converter" target="_blank">GitHub</a>.
+                </p>
+            </div>
+
+            <!-- Add more projects as needed -->
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 YBK. All rights reserved.</p>
+    </footer>
+</body>
+</html>

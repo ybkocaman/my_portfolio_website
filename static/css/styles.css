@@ -1,0 +1,192 @@
+body, h1, h2, h3, p, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #111;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.morse-code-project {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.morse-code-project h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.morse-code-project p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.morse-code-project img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+
+    .morse-code-project h2 {
+        font-size: 24px;
+    }
+
+    .morse-code-project p {
+        font-size: 14px;
+    }
+}
+
+.contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.contact form button[type="submit"] {
+    background-color: #111;
+    color: #fff;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.contact form button[type="submit"]:hover {
+    background-color: #333;
+}
+
+
+.portfolio {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.portfolio .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.portfolio .project p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.portfolio .project a {
+    color: #fff;
+    background-color: #111;
+}
+
+.portfolio .project a:hover {
+    color: #333;
+}
