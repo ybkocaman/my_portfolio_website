@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>My Portfolio</title>
 </head>
 <body>
     <header>
@@ -18,30 +18,40 @@
         </nav>
     </header>
     <main>
-
-        <section class="portfolio">
-            <h2>Portfolio</h2>
-
-            <!-- Morse Code Project -->
-            <div class="project">
-                <h3>Morse Code Converter</h3>
-                <p>
-                    Morse Code Converter is a Python project I developed. It allows you to convert text messages into Morse code and vice versa. It's a simple yet fun project that demonstrates my coding skills and creativity.
-                </p>
-                <p>
-                    The project takes user input and utilizes a dictionary to translate each character into its corresponding Morse code representation. It also provides a sound option to hear the Morse code audio.
-                </p>
-                <p>
-                    Technologies used: Python
-                </p>
-                <p>
-                    You can check out the project on <a href="https://github.com/ybkocaman/morse_code_converter" target="_blank">GitHub</a>.
-                </p>
-            </div>
-
-            <!-- Add more projects as needed -->
-
+        <section class="hero">
+            <h1>My Portfolio</h1>
+            <p>Welcome to my portfolio page. Here, you can explore some of the projects I've worked on:</p>
         </section>
+        <section class="project">
+            <h2>Morse Code Converter</h2>
+            <p>Explore my project that converts text messages into Morse code:</p>
+            <p>With this project, you can easily encode your messages into Morse code and have fun learning this classic communication method.</p>
+
+            <!-- Rest of the Morse Code Converter content here -->
+        </section>
+
+        <section class="project">
+            <h2>PDF to Speech Converter</h2>
+            <p>This Python project converts PDF files to speech audio. It can be used to create audiobooks, podcasts, or other audio content from text. I am particularly proud of this project because it solves a real-world problem for many people, such as those with visual impairments.</p>
+        </section>
+
+        <section class="project">
+            <h2>Breakout Game</h2>
+            <p>This Python project is a classic Breakout Game developed using the Tkinter library. You can break bricks and score points while testing your reflexes and having fun!</p>
+        </section>
+
+        <section class="project">
+            <h2>Tic-Tac-Toe</h2>
+            <p>This project is a text-based implementation of the classic Tic-Tac-Toe game in Python. You can play against another player or against an AI opponent. Challenge your friends and see who wins!</p>
+        </section>
+
+        <section class="project">
+            <h2>To-Do List Website</h2>
+            <p>Create, manage, and organize your tasks with this To-Do List Website. Keep track of your daily tasks and stay organized with a simple and user-friendly interface.</p>
+        </section>
+
+        <!-- Add more project sections for your new projects here -->
+
     </main>
     <footer>
         <p>&copy; 2023 YBK. All rights reserved.</p>

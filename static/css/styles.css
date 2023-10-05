@@ -1,8 +1,10 @@
+/* Reset styles for common elements */
 body, h1, h2, h3, p, ul, li, form, button {
     margin: 0;
     padding: 0;
 }
 
+/* Base styles for body */
 body {
     font-family: 'Georgia', serif;
     background-color: #f0f0f0;
@@ -11,6 +13,7 @@ body {
     text-align: center;
 }
 
+/* Header styles */
 header {
     background-color: #111;
     color: #fff;
@@ -33,6 +36,7 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Main content container styles */
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -40,6 +44,7 @@ main {
     text-align: left;
 }
 
+/* Hero section styles */
 .hero {
     text-align: center;
     padding: 50px 0;
@@ -51,6 +56,7 @@ main {
     color: #111;
 }
 
+/* Button styles */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -67,37 +73,47 @@ main {
     background-color: #333;
 }
 
-.morse-code-project {
+/* Project section styles */
+.project {
     text-align: center;
     padding: 40px 0;
 }
 
-.morse-code-project h2 {
+.project h2 {
     font-size: 28px;
     margin-bottom: 20px;
     color: #111;
 }
 
-.morse-code-project p {
+.project p {
     font-size: 16px;
     margin-bottom: 20px;
     color: #555;
 }
 
-.morse-code-project img {
+.project img {
     max-width: 100%;
     height: auto;
     margin: 20px 0;
 }
 
-.footer {
+/* Project Descriptions */
+.project-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: left;
+}
+
+/* Footer styles */
+footer {
     text-align: center;
     background-color: #111;
     color: #fff;
     padding: 10px 0;
 }
 
-
+/* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     main {
         padding: 10px;
@@ -111,82 +127,11 @@ main {
         padding: 8px 16px;
     }
 
-    .morse-code-project h2 {
+    .project h2 {
         font-size: 24px;
     }
 
-    .morse-code-project p {
+    .project p {
         font-size: 14px;
     }
-}
-
-.contact {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-}
-
-.contact form input[type="text"],
-.contact form input[type="email"],
-.contact form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-
-.contact form button[type="submit"] {
-    background-color: #111;
-    color: #fff;
-    padding: 12px 24px;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-}
-
-.contact form button[type="submit"]:hover {
-    background-color: #333;
-}
-
-
-.portfolio {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 900px;
-    margin: 20px auto;
-}
-
-.portfolio .project h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #111;
-}
-
-.portfolio h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #111;
-}
-
-.portfolio .project p {
-    font-size: 18px;
-    margin-bottom: 15px;
-    line-height: 1.4;
-    color: #333;
-}
-
-.portfolio .project a {
-    color: #fff;
-    background-color: #111;
-}
-
-.portfolio .project a:hover {
-    color: #333;
 }
